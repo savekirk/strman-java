@@ -1,33 +1,12 @@
-strman-java [![Build Status](https://travis-ci.org/shekhargulati/strman-java.svg?branch=master)](https://travis-ci.org/shekhargulati/strman-java) [![codecov.io](https://codecov.io/github/shekhargulati/strman-java/coverage.svg?branch=master)](https://codecov.io/github/shekhargulati/strman-java?branch=master) [![License](https://img.shields.io/:license-mit-blue.svg)](./LICENSE.txt)
+strman-kotlin [![Build Status](https://travis-ci.org/shekhargulati/strman-java.svg?branch=master)](https://travis-ci.org/shekhargulati/strman-java) [![codecov.io](https://codecov.io/github/shekhargulati/strman-java/coverage.svg?branch=master)](https://codecov.io/github/shekhargulati/strman-java?branch=master) [![License](https://img.shields.io/:license-mit-blue.svg)](./LICENSE.txt)
 ------
 
-A Java 8 library for working with String. It is inspired by [dleitee/strman](https://github.com/dleitee/strman).
+Implementation of [strman-java](https://github.com/shekhargulati/strman-java) in Kotlin with the test still in Java.
+
+Some of the functions are already available in the Kotlin standard library
 
 Getting Started
 --------
-
-To use strman in your application, you have to add `strman` in your classpath. strman is available on [Maven Central](http://search.maven.org/) so you just need to add dependency to your favorite build tool as show below.
-
-For Apache Maven users, please add following to your pom.xml.
-
-```xml
-<dependencies>
-    <dependency>
-        <groupId>com.shekhargulati</groupId>
-        <artifactId>strman</artifactId>
-        <version>0.1.0</version>
-        <type>jar</type>
-    </dependency>
-</dependencies>
-```
-
-Gradle users can add following to their build.gradle file.
-
-```
-compile(group: 'com.shekhargulati', name: 'strman', version: '0.1.0', ext: 'jar'){
-        transitive=true
-}
-```
 
 ## Available Functions
 
